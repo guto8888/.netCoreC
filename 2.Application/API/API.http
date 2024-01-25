@@ -1,0 +1,11 @@
+@API_HostAddress = http://localhost:5101
+
+GET {{API_HostAddress}}/user/
+Accept: application/json
+
+###
+
+GET {{API_HostAddress}}/user/1
+Accept: application/json
+
+###

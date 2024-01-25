@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "bhfd8e1dzOXnf0gSvWVZoj98J6czmWKOYnIBb6dCUn2rfvxqCs1k7GcXqHTp662q8aIPtGdge5w8Tq2R6Xwrzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\SquadManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\55329\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\55329\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\55329\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\55329\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\55329\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\55329\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\55329\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
