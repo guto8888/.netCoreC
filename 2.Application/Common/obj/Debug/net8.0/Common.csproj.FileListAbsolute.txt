@@ -9,3 +9,4 @@ C:\Users\55329\Desktop\.net c#\2.Application\Common\obj\Debug\net8.0\Common.dll
 C:\Users\55329\Desktop\.net c#\2.Application\Common\obj\Debug\net8.0\refint\Common.dll
 C:\Users\55329\Desktop\.net c#\2.Application\Common\obj\Debug\net8.0\Common.pdb
 C:\Users\55329\Desktop\.net c#\2.Application\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\55329\Desktop\.net c#\2.Application\Common\obj\Debug\net8.0\Common.sourcelink.json

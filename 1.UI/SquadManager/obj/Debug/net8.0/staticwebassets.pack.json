@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

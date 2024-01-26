@@ -79,3 +79,4 @@ C:\Users\55329\Desktop\.net c#\1.UI\SquadManager\bin\Debug\net8.0\Swashbuckle.As
 C:\Users\55329\Desktop\.net c#\1.UI\SquadManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\55329\Desktop\.net c#\1.UI\SquadManager\bin\Debug\net8.0\API.xml
 C:\Users\55329\Desktop\.net c#\1.UI\SquadManager\obj\Debug\net8.0\SquadManager.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\55329\Desktop\.net c#\1.UI\SquadManager\obj\Debug\net8.0\SquadManager.sourcelink.json

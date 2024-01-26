@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BkM7NI9r4CDRy62wQP4UM98Lpr+/cDhvEDdnVyrfUX4=",
+  "Hash": "HGT/ZDy7OhROdDiNSAeNtOLhsvLowkX+UCiqNLkK8gg=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -84,25 +84,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
-    },
-    {
-      "Identity": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\css\\site.css",
-      "SourceId": "SquadManager",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\",
-      "BasePath": "_content/SquadManager",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\favicon.ico",
