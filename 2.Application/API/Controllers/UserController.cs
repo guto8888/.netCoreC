@@ -30,6 +30,12 @@ namespace API.Controllers
 
         }
 
+        /// <summary>
+        /// API para criação de usuário
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+
          [HttpPost("create")]
         public IActionResult Create(UserModel user)
         {
@@ -44,14 +50,23 @@ namespace API.Controllers
                 }
             }
 
-
-
-
             if(user.Password == "123")
                 return Ok(new { response = "OK"});
             else 
                 return Ok(new { response = "Error"});
 
+        }
+
+        /// <summary>
+        /// API para resetar senha
+        /// </summary>
+        /// <param name="email"></param>
+        /// <returns></returns>
+
+        [HttpPost("forgot")]
+        public IActionResult Forgot([FromBody] string email)
+        {
+            return Ok(new { response = "Ok" });
         }
     }
 }

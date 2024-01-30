@@ -18,8 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\55329\Desktop\.net c#\1.UI\SquadManager
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/55329/Desktop/.net c\#/1.UI/SquadManager/Views/Login/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5caW5kZXguY3NodG1s
+[C:/Users/55329/Desktop/.net c\#/1.UI/SquadManager/Views/Login/Forgot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRm9yZ290LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/55329/Desktop/.net c\#/1.UI/SquadManager/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/55329/Desktop/.net c\#/1.UI/SquadManager/Views/Login/SignUp.cshtml]

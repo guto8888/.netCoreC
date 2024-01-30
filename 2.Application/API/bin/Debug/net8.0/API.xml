@@ -11,5 +11,19 @@
             <param name="user">Username e Senha do usuário</param>
             <returns>Ok</returns>
         </member>
+        <member name="M:API.Controllers.UserController.Create(Common.UserModel)">
+            <summary>
+            API para criação de usuário
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserController.Forgot(System.String)">
+            <summary>
+            API para resetar senha
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

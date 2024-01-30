@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2qdLWAwqKawBnYEMIOh7c5YZemkf5gY0+fmCwKvgOzM=",
+  "Hash": "YbF5Fj9sFObMc3tHaWRQIYdx6qHTsZnR2ym6LDAwjrE=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -103,6 +103,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\forgot.js",
+      "SourceId": "SquadManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\",
+      "BasePath": "_content/SquadManager",
+      "RelativePath": "js/forgot.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\forgot.js"
     },
     {
       "Identity": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\login.js",

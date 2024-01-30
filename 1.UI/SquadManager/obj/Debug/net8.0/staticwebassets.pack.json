@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\forgot.js",
+      "PackagePath": "staticwebassets\\js\\forgot.js"
+    },
+    {
       "Id": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
