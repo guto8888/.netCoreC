@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
+      "Id": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\signUp.js",
+      "PackagePath": "staticwebassets\\js\\signUp.js"
+    },
+    {
       "Id": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

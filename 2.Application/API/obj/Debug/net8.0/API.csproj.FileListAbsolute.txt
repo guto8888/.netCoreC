@@ -37,3 +37,4 @@ C:\Users\55329\Desktop\.net c#\2.Application\API\obj\Debug\net8.0\ref\API.dll
 C:\Users\55329\Desktop\.net c#\2.Application\API\bin\Debug\net8.0\API.xml
 C:\Users\55329\Desktop\.net c#\2.Application\API\obj\Debug\net8.0\API.xml
 C:\Users\55329\Desktop\.net c#\2.Application\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\55329\Desktop\.net c#\2.Application\API\bin\Debug\net8.0\FluentValidation.dll

@@ -8,10 +8,16 @@
 <section>
     <h1>Crie sua conta!</h1>
     <form>
-        <input placeholder="Username" />
-        <input placeholder="E-mail" />
-        <input placeholder="Senha" />
-        <input placeholder="Confirmação de senha" />
+        <input required type="text" id="username" placeholder="Username" />
+        <input required type="email" id="email" placeholder="E-mail" />
+        <input required type="password" id="password" placeholder="Senha" />
+        <input required type="password" id="confirmPassword" placeholder="Confirmação de senha" />
+        <div class="error">
+            <span hidden>Senhas diferentes</span> 
+        </div>
         <button>Criar</button>
     </form>
 </section>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/signUp.js"></script>

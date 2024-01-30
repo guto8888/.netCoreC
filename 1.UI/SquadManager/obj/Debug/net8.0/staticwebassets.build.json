@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HGT/ZDy7OhROdDiNSAeNtOLhsvLowkX+UCiqNLkK8gg=",
+  "Hash": "2qdLWAwqKawBnYEMIOh7c5YZemkf5gY0+fmCwKvgOzM=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -122,6 +122,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\signUp.js",
+      "SourceId": "SquadManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\",
+      "BasePath": "_content/SquadManager",
+      "RelativePath": "js/signUp.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signUp.js"
     },
     {
       "Identity": "C:\\Users\\55329\\Desktop\\.net c#\\1.UI\\SquadManager\\wwwroot\\js\\site.js",
