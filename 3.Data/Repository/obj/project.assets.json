@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
+            "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
+              "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
             }
           }
         }

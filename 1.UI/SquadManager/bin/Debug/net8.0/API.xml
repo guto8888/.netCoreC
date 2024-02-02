@@ -25,5 +25,12 @@
             <param name="email"></param>
             <returns></returns>
         </member>
+        <member name="M:API.Controllers.UserController.Reset(Common.UserModel)">
+            <summary>
+            API para resetar a senha
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

@@ -25,5 +25,24 @@
             <param name="email"></param>
             <returns></returns>
         </member>
+        <member name="M:API.Controllers.UserController.Reset(Common.UserModel)">
+            <summary>
+            API para resetar a senha
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Migrations.NewDatabase">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.NewDatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.NewDatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.NewDatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
