@@ -32,6 +32,30 @@
             <param name="user"></param>
             <returns></returns>
         </member>
+        <member name="T:API.Migrations.AddPerson">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPerson.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPerson.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPerson.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:API.Migrations.AddPersonPK">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPersonPK.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPersonPK.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPersonPK.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:API.Migrations.NewDatabase">
             <inheritdoc />
         </member>

@@ -22,5 +22,4 @@
     <ProjectReference Include="..\..\2.Application\Common\Common.csproj" />
     <ProjectReference Include="..\..\3.Data\Repository\Repository.csproj" />
   </ItemGroup>
-
 </Project>

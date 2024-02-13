@@ -14,3 +14,5 @@ C:\Users\55329\Desktop\.net c#\3.Data\Repository\obj\Debug\net8.0\refint\Reposit
 C:\Users\55329\Desktop\.net c#\3.Data\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\55329\Desktop\.net c#\3.Data\Repository\obj\Debug\net8.0\ref\Repository.dll
 C:\Users\55329\Desktop\.net c#\3.Data\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+C:\Users\55329\Desktop\.net c#\3.Data\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\55329\Desktop\.net c#\3.Data\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache

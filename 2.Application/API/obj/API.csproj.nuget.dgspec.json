@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj": {}
+    "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj": {
+    "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj",
+        "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\API.csproj",
         "packagesPath": "C:\\Users\\55329\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\obj\\",
+        "outputPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\55329\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
-                "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
+              "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
               },
               "C:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\Repository.csproj": {
                 "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\Repository.csproj"
@@ -49,12 +49,6 @@
               "target": "Package",
               "version": "[11.9.0, )"
             },
-            "Microsoft.DotNet.ILCompiler": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.1, )",
-              "autoReferenced": true
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -64,12 +58,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.1, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.1, )",
-              "autoReferenced": true
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -87,12 +75,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-              "version": "[8.0.1, 8.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -105,14 +87,14 @@
         }
       }
     },
-    "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
+    "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\55329\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\obj\\",
+        "outputPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\55329\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -180,8 +162,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
-                "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
+              "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
               }
             }
           }
@@ -195,6 +177,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {}
+    "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {}
   },
   "projects": {
-    "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
+    "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\55329\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\obj\\",
+        "outputPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\55329\\AppData\\Roaming\\NuGet\\NuGet.Config"
