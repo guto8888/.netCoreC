@@ -57,8 +57,10 @@ namespace API
                 b => b.MigrationsAssembly("API")));
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
 
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IPersonService, PersonService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
