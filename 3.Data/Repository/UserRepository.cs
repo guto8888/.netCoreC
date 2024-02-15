@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Repository.Context;
 using Repository.Entity;
 
@@ -18,6 +15,12 @@ namespace Repository
         public void Add(UserEntity entity)
         {
             _dataContext.Add(entity);
+            _dataContext.SaveChanges();
+        }
+
+        public void Update(UserEntity entity)
+        {
+            _dataContext.Update(entity);
             _dataContext.SaveChanges();
         }
     }

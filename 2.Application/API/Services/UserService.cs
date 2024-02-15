@@ -21,11 +21,25 @@ namespace API.Services
         {
             UserEntity entity = new UserEntity()
             {
+                PersonId = model.PersonId,
                 Password = model.Password,
                 Type = EnumType.ADMIN.ToString()
             };
 
             _userRepository.Add(entity);
+        }
+
+        public void UpdateUser(UserModel model)
+        {
+            UserEntity entity = new UserEntity()
+            {
+                Id = model.Id,
+                PersonId = model.PersonId,
+                Password = model.Password,
+                Type = model.Type
+            };
+
+            _userRepository.Update(entity);
         }
     }
 }

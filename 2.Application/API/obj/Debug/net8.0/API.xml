@@ -18,6 +18,13 @@
             <param name="user"></param>
             <returns></returns>
         </member>
+        <member name="M:API.Controllers.UserController.Update(Common.UserModel)">
+            <summary>
+            API edição de usuário
+            </summary>
+            <param name="user">modelo de usuário</param>
+            <returns>Ok se estiver tudo certo</returns>
+        </member>
         <member name="M:API.Controllers.UserController.Forgot(System.String)">
             <summary>
             API para resetar senha
