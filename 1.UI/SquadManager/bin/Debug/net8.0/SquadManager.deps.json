@@ -571,7 +571,8 @@
       },
       "Repository/1.0.0": {
         "dependencies": {
-          "Common": "1.0.0"
+          "Common": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1"
         },
         "runtime": {
           "Repository.dll": {}

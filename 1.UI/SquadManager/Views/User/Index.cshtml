@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Editar Conta";
+}
+
+<link rel="stylesheet" href="~/css/user.css">
+
+<section>
+    <h2>Editar Conta</h2>
+    <hr />
+    <form>
+        <input class="form-control" required type="text" id="username" placeholder="Username" />
+        <input class="form-control" required type="email" id="email" placeholder="E-mail" />
+        <input class="form-control" required type="password" id="password" placeholder="Senha" />
+        <input class="form-control" required type="password" id="confirmPassword" placeholder="Confirmação de senha" />
+        <div class="error">
+            <span hidden>Senhas diferentes</span> 
+        </div>
+        <button class="btn btn-primary">Salvar</button>
+    </form>
+</section>
+
+
+@section Scripts{
+    <script>
+        changeMenu('user')
+    </script>
+}
