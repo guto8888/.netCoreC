@@ -1,18 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using Common;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace SquadManager.Controllers
 {
-    public class UserCOntroller : Controller
+    public class UserController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Edit(PersonModel model)
         {
-            return View();
+            return View(model ?? new PersonModel());
         }
     }
 }

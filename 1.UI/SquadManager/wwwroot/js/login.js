@@ -1,8 +1,11 @@
 $("form").on("submit", function (event) {
     event.preventDefault()
     let formData = {
-        email: $("#email").val(),
-        password: $("#password").val()
+        "password": $("#password").val(),
+        "person": {
+            "email": $("#email").val(),
+            "username": $("#email").val()
+        }
     }
 
     $.ajax({
@@ -12,10 +15,12 @@ $("form").on("submit", function (event) {
         data: JSON.stringify(formData),
         url: "http://localhost:5101/api/user",
         success: function (result) {
-            if(result.response == "OK")
-                alert("Logado")
-            else
+            if(result.response == "ERROR")
                 alert("Erro ao logar")
+            else {
+                let baseUrl = $('#btnLogin').data('baseUrl')
+                location = `${baseUrl}?UserId=${result.userId}&PersonId=${result.personId}&Username=${result.username}&Email=${result.email}`
+            }
         },
         error: function (error) {
             console.log(error)

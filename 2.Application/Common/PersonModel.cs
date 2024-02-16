@@ -6,7 +6,8 @@ namespace Common
 {
     public class PersonModel
     {
-        public int Id { get; set; }
+        public int UserId { get; set; }
+        public int PersonId { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
     }
