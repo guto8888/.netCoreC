@@ -1,13 +1,13 @@
-using Common;
 using Microsoft.AspNetCore.Mvc;
+using SquadManager.Models;
 
 namespace SquadManager.Controllers
 {
     public class UserController : Controller
     {
-        public IActionResult Edit(PersonModel model)
+        public IActionResult Edit(UserViewModel model)
         {
-            return View(model ?? new PersonModel());
+            return View(model ?? new UserViewModel());
         }
     }
 }

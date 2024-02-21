@@ -18,7 +18,7 @@ $("form").on("submit", function (event) {
             if(result.response == "ERROR")
                 alert("Erro ao logar")
             else {
-                let baseUrl = $('#btnLogin').data('baseUrl')
+                let baseUrl = $('#btnLogin').data('url')
                 location = `${baseUrl}?UserId=${result.userId}&PersonId=${result.personId}&Username=${result.username}&Email=${result.email}`
             }
         },
