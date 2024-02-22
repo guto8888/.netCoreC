@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dUZpjfG5IiqirQEmkDnPd1FsmrBaaNxdDTrTaj6KtrM=",
+  "Hash": "afaRJcd+Q/7djg8rwpFOqhBlfZy3nImtu2ofJv6zhsU=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

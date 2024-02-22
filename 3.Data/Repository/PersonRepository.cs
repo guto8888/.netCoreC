@@ -25,5 +25,18 @@ namespace Repository
             _dataContext.Update(entity);
             _dataContext.SaveChanges();
         }
+
+        public PersonEntity Get(int id)
+        {
+            return _dataContext.Persons.FirstOrDefault(o =>
+                   o.Id == id);
+        }
+
+        public void Delete(int id)
+        {
+            var entity = Get(id);
+            _dataContext.Persons.Remove(entity);
+            _dataContext.SaveChanges();
+        }
     }
 }
