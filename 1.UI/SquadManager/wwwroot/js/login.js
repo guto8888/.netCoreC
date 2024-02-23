@@ -2,9 +2,9 @@ $("form").on("submit", function (event) {
     event.preventDefault()
     let formData = {
         "password": $("#password").val(),
+        "username": $("#email").val(),
         "person": {
             "email": $("#email").val(),
-            "username": $("#email").val()
         }
     }
 

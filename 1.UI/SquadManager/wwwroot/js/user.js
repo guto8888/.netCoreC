@@ -5,9 +5,9 @@ $("form").on("submit", function (event) {
         "password": $("#password").val(),
         "confirmPassword": $("#confirmPassword").val(),
         "personId": parseInt($("#PersonId").val()),
+        "username": $("#username").val(),
         "person": {
             "id": parseInt($("#PersonId").val()),
-            "username": $("#username").val(),
             "email": $("#email").val()
         }
     }
