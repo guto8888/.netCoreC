@@ -35,7 +35,8 @@ namespace API.Controllers
             var personId = _personService.AddPerson(new PersonModel()
             {
                 Name = person.Name,
-                Email = person.Email
+                Email = person.Email,
+                Type = person.Type
             });
 
             return Ok(new { response = "OK"});

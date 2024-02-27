@@ -5,11 +5,13 @@ section {
     width: 500px;
     align-items: center;
     margin: 150px auto;
+    background-color: #d5d1d183;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0;
 }
 
 form a {
@@ -21,12 +23,17 @@ input {
 }
 
 button {
-    margin: 20px 0;
+    margin: 10px 0 20px 0;
     background-color: #7dc87d;
     border: none;
     padding: 10px;
     border-radius: 3px;
     color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #6fec6f;
 }
 
 label {
@@ -39,4 +46,18 @@ label {
 
 .error span {
     color: red
+}
+
+a {
+    text-decoration: none;
+}
+
+.emailPswError {
+    color: red;
+    margin: 5px 0 0 0;
+    display: none;
+}
+
+.backBtn {
+    margin: 0 0 10px 0;
 }

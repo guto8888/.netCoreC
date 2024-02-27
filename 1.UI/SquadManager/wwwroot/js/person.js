@@ -3,22 +3,22 @@ $('form').on('submit', function (event) {
 
     let type = document.getElementById('type').value;
 
-    let formData = {
-        "id": parseInt($("#Id").val()),
-        "name": $("#name").val(),
-        "email": $("#email").val(),
-        "type": type
-    }
-
     let method = $("#Id").val() != null && $("#Id").val() != "" ? 'PATCH' : 'POST'
 
     let url = $("#Id").val() != null && $("#Id").val() != "" ? 'update' : 'create'
-   
+
+    let formData = JSON.stringify({
+        "id": $("#Id").val() != "" ? parseInt($("#Id").val()) : 0,
+        "name": $("#name").val(),
+        "email": $("#email").val(),
+        "type": type
+    })
+
     $.ajax({
         type: method,
         dataType: "json",
         contentType: "application/json; charset=UTF-8",
-        data: JSON.stringify(formData),
+        data: formData,
         url: `http://localhost:5101/api/Person/${url}`,
         success: function (result) {
             if(result.response == "OK")

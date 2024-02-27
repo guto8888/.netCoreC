@@ -39,7 +39,7 @@ namespace API
                                 .AllowAnyOrigin();
                     })
             );
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
             
             services.AddSwaggerGen(x => {
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
