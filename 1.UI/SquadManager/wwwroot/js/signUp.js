@@ -12,7 +12,11 @@ $("form").on("submit", function (event) {
         username: $("#username").val(),
         email: $("#email").val(),
         password: $("#password").val(),
-        confirmPassword: $("#confirmPassword").val()
+        confirmPassword: $("#confirmPassword").val(),
+        Person: {
+            name: $("#username").val(),
+            email: $("#email").val(),
+        }
     }
 
     $.ajax({
@@ -22,9 +26,10 @@ $("form").on("submit", function (event) {
         data: JSON.stringify(formData),
         url: "http://localhost:5101/api/user/create",
         success: function (result) {
-            if(result.response == "OK")
-                alert("Criado")
-            else
+            if(result.response == "OK") {
+                alert("Criado com sucesso, você será redirecionado a página de login")
+                location = `/login`
+            } else
                 alert("Erro ao criar")
         },
         error: function (error) {

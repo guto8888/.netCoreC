@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ADUmqQkaqipBF/CYyQYBLsSqzWZtdimfLu4+8JjT2yuIt7Tj+mgQG0QBptyoseJcPjY8tVaTNVyWKGTZb5wW9A==",
+  "dgSpecHash": "CyIRhBVSrHTndQV+RheNC2xOz0c7+xge9IfJxLtkc7XbzKWwUDFvbSm+GxxjBERhcCleJ8dVPllXRDYOFPB7TQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
+  "projectFilePath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

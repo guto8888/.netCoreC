@@ -16,6 +16,7 @@ $("form").on("submit", function (event) {
         data: JSON.stringify(formData),
         url: "http://localhost:5101/api/user",
         success: function (result) {
+            console.log(result)
             if(result.response == "Error"){
                 $("#email").css("border-color", "red");
                 $("#password").css("border-color", "red");
