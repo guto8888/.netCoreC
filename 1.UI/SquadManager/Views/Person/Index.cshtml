@@ -1,8 +1,38 @@
+@model SquadManager.Models.PersonViewModel
+
 @{
+    var name = Model.Name != null ? Model.Name : "";
+    var id = Model.Id != null ? Model.Id : 0;
+    var email = Model.Email != null ? Model.Email : "";
+    var type = Model.Type != null ? Model.Type : "";
+
     ViewData["Title"] = "Person";
 }
 
-<h2>Person list</h2>
+<link rel="stylesheet" href="~/css/person.css">
+
+<section>
+    <h2>Person list</h2>
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Type</th>
+            <th></th>
+        </thead>
+        <tbody>
+            <td>@id</td>
+            <td>@name</td>
+            <td>@email</td>
+            <td>@type</td>
+            <td><button>Editar</button></td>
+        </tbody>
+    </table>
+    <div>
+        <button>Criar</button>
+    </div>
+</section>
 
 @section Scripts{
     <script>

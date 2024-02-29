@@ -11,3 +11,44 @@ form input {
 form button {
     margin-top: 15px;
 }
+
+table {
+    background-color: red;
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(198, 198, 198);
+}
+
+th {
+    padding: 5px;
+    text-transform: uppercase;
+    border: solid 2px black;
+    text-align: center;
+}
+
+tbody {
+    background-color: rgb(198, 224, 224);
+}
+
+td {
+    border: solid 2px black;
+    text-align: center;
+    padding: 5px;
+}
+
+section div button,tbody td button {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+section div button {
+    padding: 5px 210px;
+    width: 100%;
+    margin-top: 10px;
+}
