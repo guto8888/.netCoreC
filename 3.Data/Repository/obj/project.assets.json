@@ -4036,11 +4036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\Repository.csproj",
+      "projectUniqueName": "c:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\Repository.csproj",
+      "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\55329\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\obj\\",
+      "outputPath": "c:\\Users\\55329\\Desktop\\.net c#\\3.Data\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\55329\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4055,8 +4055,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
-              "projectPath": "c:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
+            "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\55329\\Desktop\\.net c#\\2.Application\\Common\\Common.csproj"
             }
           }
         }

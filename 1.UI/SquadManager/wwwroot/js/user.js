@@ -8,7 +8,8 @@ $("form").on("submit", function (event) {
         "username": $("#username").val(),
         "person": {
             "id": parseInt($("#PersonId").val()),
-            "email": $("#email").val()
+            "email": $("#email").val(),
+            "name": $("#username").val(),
         }
     }
 
@@ -21,6 +22,7 @@ $("form").on("submit", function (event) {
         success: function (result) {
             if(result.response == "OK")
                 alert("Salvo com sucesso")
+                location = `/login`
         },
         error: function (error) {
             console.log(error)

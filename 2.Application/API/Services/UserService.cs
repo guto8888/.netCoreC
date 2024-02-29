@@ -36,7 +36,7 @@ namespace API.Services
                 Id = model.Id,
                 PersonId = model.PersonId,
                 Password = model.Password,
-                Username = model.Username
+                Username = model.Person.Name
             };
 
             _userRepository.Update(entity);
@@ -62,6 +62,7 @@ namespace API.Services
                 model.PersonId = entity.PersonId;
                 model.Person.Email = entity.Person.Email;
                 model.Username = entity.Username;
+                model.Person.Name = entity.Person.Name;
                 return model;
             }
 

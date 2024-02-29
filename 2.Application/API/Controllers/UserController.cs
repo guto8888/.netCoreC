@@ -35,7 +35,7 @@ namespace API.Controllers
                     UserId = result.Id,
                     PersonId = result.PersonId,
                     Email = result.Person.Email,
-                    Username = result.Username
+                    Username = result.Person.Name
                 });
             }else 
             {
